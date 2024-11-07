@@ -1,0 +1,100 @@
+.logInContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.createUserContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.welcomeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.welcomeButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.addMovieContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.editProfileButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.profileTexttBoxContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.profileBioTextBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    height: 350px;
+    width: 350px;
+    margin: 5px;
+}
+
+.profileMovieList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    height: 350px;
+    width: 350px;
+    margin: 5px;
+}
+
+.profileMovieReviewsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    height: 350px;
+    width: 350px;
+    margin: 5px;
+}
+
+.styleImage {
+    height: 400px;
+}
+
+.styleProfileImage {
+    height: 300px;
+    margin: 5px;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin: 10px;
+}

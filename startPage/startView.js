@@ -1,7 +1,7 @@
 // start view. - Velkomstsiden etter login.
 
 function drawStartPageView() {
-    app.innerHTML = drawMenu() + /*HTML*/`
+    app.innerHTML = /*HTML*/`
 
     <div class="welcomeButtonContainer">
 
@@ -14,7 +14,7 @@ function drawStartPageView() {
 
     <h2>Velkommen!<h2>
 
-    <img class="styleImage" src="${model.input.welcome.welcomeImage}">
+    <img class="styleImage" src="${model.app.welcomeImage}">
 
     </div>
     `;

@@ -7,12 +7,16 @@ const model = {
     app: {
 
         loggedInUser: null,          // brukeren som er inlogget.
-        selectedProfileID: null,     // brukerens ID.
-
+        
         currentPage: 'loginPage',
+        
+        welcomeImage: 'IMG/film.rating.logo.jpg',
 
         navigationMenu: false,             // page navigasjon.
         filterMenu: false,               // filtrering av søk.
+
+        errorMessage: '',
+        selectedProfileID: null,     // brukerens ID.
     },
 
 
@@ -28,10 +32,6 @@ const model = {
             email: '',
             password: '',
             repeatPassword: '',
-        },
-
-        welcome: {         // legge til velkomstbilde. (med melding - intro til siden).
-            welcomeImage: 'IMG/introbilde_filmrating.jpg',
         },
 
         editProfile: {               // rediger profil.
@@ -51,12 +51,6 @@ const model = {
             text: '',
         },
 
-        filter: {
-            title: '',              // filter i søkeresultater.
-            genre: '',
-            year: '',
-        },
-
         preview: {                  // rating og kommentar fra brukere.
             movieIndex: null,
         },
@@ -71,7 +65,7 @@ const model = {
                 name: 'Chris',
                 email: 'chris@getacademy.no',
                 password: '1234',
-                image: null,
+                image: 'IMG/pixel.art.baby.kanguroo.jpg',
                 bio: '',
                 favMovie: [],
                 listComments: [],
